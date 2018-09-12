@@ -1,0 +1,65 @@
+{ "chest":[
+  {
+    "name": "Flat Benchpress",
+    "weight": 60.0,
+    "reps": 5,
+    "canAdvance": "can"
+  },
+  {
+    "name": "Incline Benchpress",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Decline Benchpress",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Flat Dumbbell Press",
+    "weight": 30.0,
+    "reps": 5,
+    "canAdvance": "can"
+  },
+  {
+    "name": "Incline Dumbbell Press",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Decline Dumbbell Press",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Flat Flys",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Incline Flys",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Decline Flys",
+    "weight": 16.75,
+    "reps": 5,
+    "canAdvance": "can"
+  }
+], 
+"back":[
+  {
+    "name": "Rows",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+}
+]
+}
