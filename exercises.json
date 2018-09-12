@@ -60,6 +60,129 @@
     "weight": 0,
     "reps": 0,
     "canAdvance": "cannot"
-}
+},
+  {
+    "name": "Lat Pulldown",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Deadlift",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Dumbbell Row",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Pullups",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  }
+],
+"legs":[
+  {
+    "name": "Squat",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Calf Raises",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Leg Press",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Leg Extension",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Hamstring Curl",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  }
+],
+"biceps":[
+  {
+    "name": "Dumbbell Curl",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Hammer Curl",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Barbell Curl",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  }
+],
+"triceps": [
+  {
+    "name": "Dips",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Rope Pushdown",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Bar Pushdown",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Single Cable Pushdown",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Skullcrushers",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  },
+  {
+    "name": "Cable Rope Overhead",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  }
+],
+"shoulders": [
+  {
+    "name": "Dumbbell press",
+    "weight": 0,
+    "reps": 0,
+    "canAdvance": "cannot"
+  }
 ]
+
 }
