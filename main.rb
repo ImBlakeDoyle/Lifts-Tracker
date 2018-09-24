@@ -6,6 +6,9 @@ exerciseJson = File.read('exercises.json')
 @response = ""
 @selectedExercise = ""
 
+
+#FIXME Allow for multiple users
+
 #start up screen
 def startScreen
 loop do
@@ -34,19 +37,17 @@ def showStats
     puts ""
     puts "Options: Chest, Back, Legs, Biceps, Triceps, Shoulders (type 'exit' to leave)"
     muscleGroup = gets.downcase.chomp
-    #only works for 'chest' at the moment
-    if muscleGroup = @exercisesHash[muscleGroup]
+        if muscleGroup == "exit"
+            puts "Ok bye"
+            sleep(2)
+            system"clear"
+            exit
+        elsif muscleGroup = @exercisesHash[muscleGroup]
         listExercises(muscleGroup)
-    end
-        # if groupTrained == "chest"
-        #     listExercises
-        # elsif groupTrained == "exit"
-        #     puts "Ok bye"
-        #     sleep(2)
-        #     exit
-        # else puts "That isn't a valid selection"
-        #     sleep(1.5)
-        # end
+        else
+            puts "Invalid selection"
+            sleep(2)
+        end
     end
 end
 
@@ -91,10 +92,9 @@ def displayExercise
         print "Please enter a number: "
         whatDo = gets.chomp.to_i
             if whatDo == 1
-                puts "Your last lift for #{@selectedExercise["name"]} was #{@selectedExercise["reps"]} reps at #{@selectedExercise["weight"]}kg and you believe you #{@selectedExercise["canAdvance"]} lift heavier next time"
+                puts "Your last lift for #{@selectedExercise["name"]} was #{@selectedExercise["reps"]} reps at #{@selectedExercise["weight"]} kg and you believe you #{@selectedExercise["canAdvance"]} lift heavier next time"
                 sleep(5)
                 system"clear"
-            break
             elsif whatDo == 2
                 updateLift
             elsif whatDo == 3
