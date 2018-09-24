@@ -1,5 +1,4 @@
 require 'json'
-
 exerciseJson = File.read('exercises.json')
 @exercisesHash = JSON.parse(exerciseJson)
 
